@@ -1,0 +1,237 @@
+{
+  "activities": {
+    "RvNzPUIJQZW2fRinWIq5qupKQXx2": {
+      "-NUeCLMzdqFB7Yus6DQP": {
+        "activity": "Skiing and Snowboarding",
+        "dateOfPurchase": "31/5/2023",
+        "price": 120,
+        "quantity": 2,
+        "userID": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      },
+      "-NUuPJpCPBp18Tfuo1du": {
+        "activity": "Skiing and Snowboarding",
+        "dateOfPurchase": "26/5/2023",
+        "price": 120,
+        "quantity": 2,
+        "userID": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      },
+      "-NV8O5E-KRMWsFirY9wl": {
+        "activity": "Kayaking",
+        "dateOfPurchase": "11/5/2023",
+        "price": 60,
+        "quantity": 2,
+        "userID": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      },
+      "-NV8i_puG_CMZ3nJ0wyA": {
+        "activity": "Kayaking",
+        "dateOfPurchase": "21/5/2023",
+        "price": 60,
+        "quantity": 2,
+        "userID": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      },
+      "-NV9CXE398UHi4W-9PSn": {
+        "activity": "Kayaking",
+        "dateOfPurchase": "14/5/2023",
+        "price": 300,
+        "quantity": 10,
+        "userID": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      }
+    },
+    "ULWgGTtntPgXQiyvLaP7SW4ZWME2": {
+      "-NVA5NIBUkcYEpYaXOKp": {
+        "activity": "Skiing and Snowboarding",
+        "dateOfPurchase": "12/5/2023",
+        "price": 60,
+        "quantity": 1,
+        "userID": "ULWgGTtntPgXQiyvLaP7SW4ZWME2"
+      }
+    }
+  },
+  "bookings": {
+    "RvNzPUIJQZW2fRinWIq5qupKQXx2": {
+      "-NUeCYcfnuGhNgXZ890e": {
+        "date": "25/05/2023",
+        "duration": 4,
+        "numberOfGuests": 2,
+        "priceOfBooking": 480,
+        "type": "Comfort Suite",
+        "userID": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      },
+      "-NUuPGQ2DHIKAa4O025A": {
+        "date": "25/05/2023",
+        "duration": 2,
+        "numberOfGuests": 2,
+        "priceOfBooking": 440,
+        "type": "Family Suite",
+        "userID": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      },
+      "-NV8NzGKenyyc4f5r4-L": {
+        "date": "12/05/2023",
+        "duration": 2,
+        "numberOfGuests": 2,
+        "priceOfBooking": 440,
+        "type": "Family Suite",
+        "userID": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      }
+    },
+    "ULWgGTtntPgXQiyvLaP7SW4ZWME2": {
+      "-NVA5T4sKL5ccdPHC7rD": {
+        "date": "12/05/2023",
+        "duration": 2,
+        "numberOfGuests": 1,
+        "priceOfBooking": 360,
+        "type": "Kings Suite",
+        "userID": "ULWgGTtntPgXQiyvLaP7SW4ZWME2"
+      }
+    },
+    "iIevXuQaXyfED4SEcSozNrPETQF2": {
+      "-NUe5Ne9BjSwSlNXjYEE": {
+        "date": "12/05/2023",
+        "duration": 3,
+        "numberOfGuests": 5,
+        "priceOfBooking": 360,
+        "type": "Comfort Suite",
+        "userID": "iIevXuQaXyfED4SEcSozNrPETQF2"
+      }
+    }
+  },
+  "order": {
+    "RvNzPUIJQZW2fRinWIq5qupKQXx2": {
+      "-NUgJ7E7ButaGYpePFde": {
+        "date": "05/05/2023",
+        "item": "Turkish Bread",
+        "price": 60,
+        "quantity": 3,
+        "room": "321",
+        "totalPrice": 180,
+        "uid": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      },
+      "-NUuBVlVNyeAa49hIHPn": {
+        "date": "08/05/2023",
+        "item": "Turkish Bread",
+        "price": 60,
+        "quantity": 2,
+        "room": "332",
+        "totalPrice": 120,
+        "uid": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      },
+      "-NUuF2pIbpUnmL8TxUbO": {
+        "date": "08/05/2023",
+        "item": "Turkish Bread",
+        "price": 60,
+        "quantity": 1,
+        "room": "332",
+        "totalPrice": 60,
+        "uid": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      },
+      "-NUuMIzVTqxD-hEu3Whk": {
+        "date": "08/05/2023",
+        "item": "Chocolate Cream",
+        "price": 35,
+        "quantity": 3,
+        "room": "332",
+        "totalPrice": 105,
+        "uid": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      },
+      "-NV8Y5bwKg7KP_CKTBJ2": {
+        "date": "11/05/2023",
+        "item": "Strawberry Water",
+        "price": 40,
+        "quantity": 2,
+        "room": "321",
+        "totalPrice": 80,
+        "uid": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      }
+    },
+    "ULWgGTtntPgXQiyvLaP7SW4ZWME2": {
+      "-NVA5cVFZ5S81iWGXDAw": {
+        "date": "11/05/2023",
+        "item": "Jambon Potato",
+        "price": 75,
+        "quantity": 1,
+        "room": "303",
+        "totalPrice": 75,
+        "uid": "ULWgGTtntPgXQiyvLaP7SW4ZWME2"
+      },
+      "-NVA5fWrc2RUF8AZO22d": {
+        "date": "11/05/2023",
+        "item": "Strawberry Water",
+        "price": 40,
+        "quantity": 1,
+        "room": "303",
+        "totalPrice": 40,
+        "uid": "ULWgGTtntPgXQiyvLaP7SW4ZWME2"
+      }
+    }
+  },
+  "requests": {
+    "RvNzPUIJQZW2fRinWIq5qupKQXx2": {
+      "-NV9w8peb7W2cqm-viGo": {
+        "date": "11/05/2023",
+        "phone": "0909822312",
+        "request": "Booking Taxi",
+        "room": "321",
+        "time": "2am",
+        "userID": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+      }
+    },
+    "ULWgGTtntPgXQiyvLaP7SW4ZWME2": {
+      "-NVA5YGvBxB1Sxzhulwa": {
+        "date": "11/05/2023",
+        "phone": "0938671180",
+        "request": "Booking Taxi",
+        "room": "303",
+        "time": "2 Am",
+        "userID": "ULWgGTtntPgXQiyvLaP7SW4ZWME2"
+      }
+    },
+    "ixTmb4aictSoApEODnZGV1nKqqc2": {
+      "-NVA2NJqFSK_99AAW3dv": {
+        "date": "11/05/2023",
+        "phone": "0903334422",
+        "request": "Repair Device",
+        "room": "303",
+        "time": "3pm",
+        "userID": "ixTmb4aictSoApEODnZGV1nKqqc2"
+      }
+    }
+  },
+  "room_review": {
+    "RvNzPUIJQZW2fRinWIq5qupKQXx2": {
+      "rank": 3.5,
+      "review": "better",
+      "userID": "RvNzPUIJQZW2fRinWIq5qupKQXx2"
+    },
+    "ULWgGTtntPgXQiyvLaP7SW4ZWME2": {
+      "rank": 4.900000095367432,
+      "review": "Beautiful place",
+      "userID": "ULWgGTtntPgXQiyvLaP7SW4ZWME2"
+    }
+  },
+  "users": {
+    "RvNzPUIJQZW2fRinWIq5qupKQXx2": {
+      "email": "quanmanh567@gmail.com",
+      "firstName": "manh",
+      "lastName": "voong",
+      "phone": "0123456890"
+    },
+    "ULWgGTtntPgXQiyvLaP7SW4ZWME2": {
+      "email": "manhvoong@gmail.com",
+      "firstName": "Voong",
+      "lastName": "Quang Manh",
+      "phone": "0938671180"
+    },
+    "iIevXuQaXyfED4SEcSozNrPETQF2": {
+      "email": "thpthv.voongquangmanh@gmail.com",
+      "firstName": "quang",
+      "lastName": "manh",
+      "phone": "0908808021"
+    },
+    "neuAe2NqNAM0RRV4dSgDySPEP0r2": {
+      "email": "admin@gmail.com",
+      "firstName": "admin",
+      "lastName": "admin",
+      "phone": "0909090901"
+    }
+  }
+}

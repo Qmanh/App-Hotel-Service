@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E5EA"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/textNameHotel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="The Bear Hotel"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textWelcome2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="R E Q U E S T"
+        android:textColor="#8F8E8E"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/image_request" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textBooking"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/baseline_local_taxi_24"
+                android:gravity="center"
+                android:text="Booking Taxi"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnTaxi"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_80sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:backgroundTint="#eddca0"
+                android:text="Book"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textRepair"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/baseline_hardware_24"
+                android:drawablePadding="@dimen/_8sdp"
+                android:gravity="center"
+                android:text="Repair Device"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnRepair"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_80sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:backgroundTint="#eddca0"
+                android:text="Book"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textClean"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/baseline_cleaning_services_24"
+                android:gravity="center"
+                android:text="Clean Room"
+                android:drawablePadding="@dimen/_10sdp"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnClean"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_80sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:backgroundTint="#eddca0"
+                android:text="Book"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textBellman"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="match_parent"
+
+                android:drawableLeft="@drawable/baseline_luggage_24"
+                android:drawablePadding="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="Bellman"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnBellman"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_80sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:backgroundTint="#eddca0"
+                android:text="Book"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textParking"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/baseline_local_parking_24"
+                android:drawablePadding="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="Valet Parking"
+                android:textColor="#000000"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnParking"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_80sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:backgroundTint="#eddca0"
+                android:text="Book"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E3E5EA"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MenuFragment">
+
+
+    <TextView
+        android:id="@+id/textNameHotel3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="The Bear Hotel"
+        android:textColor="#000000"
+        android:textSize="@dimen/_30ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textWelcome3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="M E N U"
+        android:textColor="#8F8E8E"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageLeft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_food_bank_24" />
+
+                    <TextView
+                        android:id="@+id/textFood"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Main course"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageMiddle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_emoji_food_beverage_24" />
+
+                    <TextView
+                        android:id="@+id/textDrink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:text="Drinks"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageRight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_cookie_24" />
+
+                    <TextView
+                        android:id="@+id/textDessert"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:text="Dessert"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/_15ssp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000000" />
+
+            <!--Breakfast1-->
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/breakfast" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textFood1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Turkish Bread"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="2 Eggs"
+                        android:textColor="#70000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="1 Bread"
+                        android:textColor="#8A000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textPrice1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:drawableLeft="@drawable/baseline_attach_money_24"
+                            android:text="60"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/btnOrder1"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="40dp"
+                            android:background="#30C636"
+                            android:backgroundTint="#F1F1F1"
+                            android:text="Order"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>  <!--Breakfast1-->
+
+            <!--Drink1-->
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageViewDrink1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/drink1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDrink1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Strawberry Water"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDrink2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="50% Sugar"
+                        android:textColor="#70000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textDrink3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="75% ice"
+                        android:textColor="#8A000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textDrinkPrice1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:drawableLeft="@drawable/baseline_attach_money_24"
+                            android:text="40"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/btnOrderDrink1"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="40dp"
+                            android:background="#30C636"
+                            android:backgroundTint="#F1F1F1"
+                            android:text="Order"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>  <!--Drink1-->
+
+
+            <!--Dessert1-->
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageViewDessert1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/dessert1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDessert1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Cake Milk Cream"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDessert2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="30% Sugar"
+                        android:textColor="#70000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textDessert3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="30% Cream"
+                        android:textColor="#8A000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textDessertPrice1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:drawableLeft="@drawable/baseline_attach_money_24"
+                            android:text="20"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/btnOrderDessert1"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="40dp"
+                            android:background="#30C636"
+                            android:backgroundTint="#F1F1F1"
+                            android:text="Order"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout><!--Dessert1-->
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000000" />
+
+            <!--BreakFast2-->
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/breakfast2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textFood2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Jambon Potato"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="1 Potato" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="70g Jampon - Noddles" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textPrice2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:drawableLeft="@drawable/baseline_attach_money_24"
+                            android:text="75"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/btnOrder2"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="40dp"
+                            android:text="Order"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout> <!--BreakFast2-->
+
+
+            <!--Drink2-->
+
+            <LinearLayout
+                android:id="@+id/linear5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageViewDrink2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/drink2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDrink5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Lime Water"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDrink6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="65% Sugar"
+                        android:textColor="#70000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textDrink7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="80% ice"
+                        android:textColor="#8A000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textDrinkPrice2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:drawableLeft="@drawable/baseline_attach_money_24"
+                            android:text="35"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/btnOrderDrink2"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="40dp"
+                            android:background="#30C636"
+                            android:backgroundTint="#F1F1F1"
+                            android:text="Order"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>  <!--Drink2-->
+
+
+            <!--Dessert2-->
+
+            <LinearLayout
+                android:id="@+id/linear6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageViewDessert2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/dessert2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDessert4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Chocolate Cream"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDessert5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="20% Milk Cream"
+                        android:textColor="#70000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textDessert6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="50% Chocolate"
+                        android:textColor="#8A000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textDessertPrice2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:drawableLeft="@drawable/baseline_attach_money_24"
+                            android:text="18"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/btnOrderDessert2"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="40dp"
+                            android:background="#30C636"
+                            android:backgroundTint="#F1F1F1"
+                            android:text="Order"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout><!--Dessert2-->
+
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#000000" />
+
+
+            <!--BreakFast3-->
+            <LinearLayout
+                android:id="@+id/linear7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/breakfast3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textFood3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Chicken Egg"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="1 Egg" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text=" Fillet and Sallad" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textPrice3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:drawableLeft="@drawable/baseline_attach_money_24"
+                            android:text="80"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/btnOrder3"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="40dp"
+                            android:text="Order"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>  <!--BreakFast3-->
+
+            <!--Drink3-->
+
+            <LinearLayout
+                android:id="@+id/linear8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageViewDrink3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/drink3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDrink8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Milk Tea"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDrink9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="55% Sugar"
+                        android:textColor="#70000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textDrink10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="100% ice"
+                        android:textColor="#8A000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textDrinkPrice3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:drawableLeft="@drawable/baseline_attach_money_24"
+                            android:text="35"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/btnOrderDrink3"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="40dp"
+                            android:background="#30C636"
+                            android:backgroundTint="#F1F1F1"
+                            android:text="Order"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout> <!--Drink3-->
+
+            <!--Dessert3-->
+
+            <LinearLayout
+                android:id="@+id/linear9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/imageViewDessert3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/dessert" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textDessert7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Strawberry Cake"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textDessert8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="20% Sugar"
+                        android:textColor="#70000000"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/textDessert9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/baseline_star_border_24"
+                        android:drawablePadding="10dp"
+                        android:text="litte strawbery and grape"
+                        android:textColor="#8A000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/textDessertPrice3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:drawableLeft="@drawable/baseline_attach_money_24"
+                            android:text="23"
+                            android:textColor="#000000" />
+
+                        <Button
+                            android:id="@+id/btnOrderDessert3"
+                            android:layout_width="80dp"
+                            android:layout_height="35dp"
+                            android:layout_marginLeft="40dp"
+                            android:background="#30C636"
+                            android:backgroundTint="#F1F1F1"
+                            android:text="Order"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout><!--Dessert3-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564294795962",
+    "project_id": "bear-hotel-617f2",
+    "storage_bucket": "bear-hotel-617f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564294795962:android:58154ef3b59b63c276b883",
+        "android_client_info": {
+          "package_name": "com.example.bearhotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564294795962-o83u53pgmvaol86kic6s1o3vlkndka5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCffcfo4rHN1QPLo01qwLH0ke5-l8svK7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564294795962-o83u53pgmvaol86kic6s1o3vlkndka5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

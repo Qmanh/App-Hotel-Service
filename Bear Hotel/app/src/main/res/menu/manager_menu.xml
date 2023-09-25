@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homePage"
+        android:title="Home"
+        android:icon="@drawable/home_page"/>
+    <item
+        android:id="@+id/requestPage"
+        android:title="Request"
+        android:icon="@drawable/request_page"/>
+    <item
+        android:id="@+id/menuPage"
+        android:title="Menu"
+        android:icon="@drawable/menu_page"/>
+    <item
+        android:id="@+id/payments"
+        android:title="Payment"
+        android:icon="@drawable/payment_page"/>
+    <item
+        android:id="@+id/offerPage"
+        android:icon="@drawable/offer_page"
+        android:title="Admin"
+        android:visible="false" />
+
+</menu>
